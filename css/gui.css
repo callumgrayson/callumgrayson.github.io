@@ -62,6 +62,11 @@ body {
     justify-self: center;    
 }
 
+img {    
+    max-height: 10vmin;
+    width: 30vmin;
+    color: #17f;
+}
 
 
 .button-area {

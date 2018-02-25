@@ -1,0 +1,112 @@
+html {
+    /*Enter HTML formatting here*/
+    font-family: 'Lekton', Helvetica, Arial, sans-serif;
+    font: black;
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bigbox {
+    width: 90vw;
+    height: 90vh;
+    display: block;
+    position: fixed;
+    top: 5vh;
+    left: 5vw;
+    font-size: 5vmin;
+    font: black;
+
+}
+
+a {
+    color: black;
+    font-kerning: 1em;
+}
+
+.box1 {
+    width: auto;
+    padding-left: 4vmin;
+    padding-right: 4vmin;
+    height: 10vmin;
+    display: flex;
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    text-align: center;
+    align-items: center;
+    z-index: 1;
+
+    
+}
+
+.box2 {
+    width: auto;
+    padding-left: 4vmin;
+    padding-right: 4vmin;
+    height: 10vmin;
+    display: flex;
+    position: absolute;
+    top: 0vh;
+    right: 0vw;
+    align-items: center;
+    z-index: 2;
+}
+
+.box3 {
+    width: auto;
+    padding-left: 4vmin;
+    padding-right: 4vmin;
+    height: 10vmin;
+    display: block;
+    position: absolute;
+    bottom: 0vh;
+    left: 0vw;
+    display: flex;
+    align-items: center;
+    z-index: 3;
+}
+
+.box4 {
+    width: auto;
+    padding-left: 4vmin;
+    padding-right: 4vmin;
+    height: 10vmin;
+    display: block;
+    position: absolute;
+    bottom: 0vh;
+    right: 0vw;
+    display: flex;
+    align-items: center;
+    z-index: 4;
+}
+
+.centerpiece {
+    width: 90vw;
+    height: 90vh;
+    display: grid;
+    /* border: solid 0.05vmin; */
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    align-content: center;
+    justify-content: center;
+}
+
+svg {
+    fill: red;
+    width: 10vmin;
+    display: flex;
+    z-index: 0;    
+}
+
+/* Used this on each box but got rid of it for the tyepwriter effect
+/*    background-color: #DDD;
+    border: solid 0.1vmin;
+    border-radius: 5vmin;
+
+
+*/

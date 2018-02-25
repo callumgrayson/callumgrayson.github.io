@@ -1,0 +1,59 @@
+/* CSS1 for Trial Multi Page */
+
+html {
+    /*Enter HTML formatting here*/
+    font-family: 'Lekton', Helvetica, Arial, sans-serif;
+    font: black;
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bigbox {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: fixed;
+    top: 0vh;
+    left: 0vw;
+    font-size: 4vw;
+    font: black;
+
+}
+
+h2 {
+    display: flex;
+    margin-top: 30vw;
+    float: left;
+}
+
+a {
+    color: black;
+    font-kerning: 1em;
+}
+
+.bigbox box1 {
+    height: 20vmin;
+    width: auto;
+    padding-left: 10vmin;
+    padding-right: 10vmin;
+    display: flex;
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    text-align: center;
+    align-items: center;
+    z-index: 1;
+    background-color: #444;
+}
+
+svg {
+    fill: red;
+    min-width: 30px;
+    width: 8vmin;
+    display: flex;
+    z-index: 0;    
+}
