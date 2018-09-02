@@ -1,0 +1,27 @@
+html {
+    /*Enter HTML formatting here*/
+    font-family: 'Lekton', Helvetica, Arial, sans-serif;
+    font: black;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+}
+
+a {
+    width: 30vw;
+    height: 20vh;
+    display: grid;
+    position: absolute;
+    top: 35vh;
+    left: 35vw;
+    align-content: center;
+    justify-content: center;
+}
+
+svg {
+    fill: red;
+    width: 10vmin;
+    display: flex;
+}
