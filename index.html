@@ -11,7 +11,7 @@
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
     <link rel="manifest" href="./public/manifest.json">
-    <link rel="shortcut icon" href="./public/favicon.ico">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -27,15 +27,49 @@
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-    <div id="root"></div>
-      <h1>Callum Grayson - Developer</h1>
-      <a href="https://callumgrayson.com" class="dot-com">
-        <div class='centerpiece'>
-          <svg viewBox="0 0 32 32">
-              <path d="M22 2 l-10 10 h-6l-6 8 c0 0 6.357-1.77 10.065-0.94 l-10.065 12.94 13.184-10.255 c1.839 4.208-1.184 10.255-1.184 10.255l8-6 v-6l10-10 2-10-10 2z">
-              </path>
-          </svg>
+    <a href="https://callumgrayson.com" id="a-red-rocket">
+      <div class="svg-container" >
+        <svg viewBox="0 0 32 32" id="red-rocket">
+          <path d="M22 2 l-10 10 h-6l-6 8 c0 0 6.357-1.77 10.065-0.94 l-10.065 12.94 13.184-10.255 c1.839 4.208-1.184 10.255-1.184 10.255l8-6 v-6l10-10 2-10-10 2z">
+          </path>
+        </svg>              
+      </div>
+    </a>
+    <h1>Callum Grayson - Developer</h1>
+    <div id="face-spacer"></div>
+    <div id="container">
+      <div id="background-transparency"></div>
+      <div id="gallery">
+        <h2>Odds and Sods</h2>
+        <div id="card-space">
+          <div class="card" id="">
+            <a href="https://callumgrayson.github.io/sticky/" target="_blank" rel="noopener noreferrer" class="card-image-link">
+              <h4 class="card-title">Gluey Jots</h4>
+              <div class="card-image-box">
+                <!-- <img src="./public/gluey_jots.png" alt="Gluey Jots" class="card-image" srcset=""> -->
+              </div>
+            </a>
+            <p class="card-caption">
+              Write notes with title and text. Save them to local storage. Search by title. Delete as needed.
+            </p>
+          </div>
+          <div class="card" id=""></div>
+          <div class="card" id=""></div>
+          <div class="card" id=""></div>
+          <div class="card" id=""></div>
+          <div class="card" id=""></div>
+          <div class="card" id=""></div>
+          <div class="card" id=""></div>
+          <div class="card" id=""></div>
+          <div class="card" id=""></div>
+          <div class="card" id=""></div>
+          <div class="card" id=""></div>
+          <div class="card" id=""></div>
+          <div class="card" id=""></div>
         </div>
-      </a>
+      </div>
+    </div>
   </body>
 </html>
+
+
