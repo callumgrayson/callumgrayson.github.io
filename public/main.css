@@ -1,12 +1,12 @@
 html {
     font-family: 'Lekton', Helvetica, Arial, sans-serif;
-    
 }
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 body {
@@ -25,18 +25,30 @@ h1, h2 {
 #a-red-rocket {
     width: 5vmin;
     height: 5vmin;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: fixed;
     bottom: 5vmin;
     right: 5vmin;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .svg-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 100%;
 }
 
@@ -51,26 +63,35 @@ h1, h2 {
 
 #container {
     height: auto;
+    background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(20vh, rgba(255, 255, 255, 0.82)));
     background: linear-gradient(transparent, rgba(255, 255, 255, 0.82) 20vh);
     padding-top: 30vh;
 }
 
 #card-space {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     opacity: 1;
 }
 
 .card {
     width: 300px;
     height: 300px;
-    background: white;
+    background: lightgrey;
     margin: 10px;
     padding: 10px;
     border: solid 1px hsl(0, 0%, 90%);
-    box-shadow: hsl(0, 0%, 72%) 2px 2px 3px;
+    -webkit-box-shadow: hsl(0, 0%, 72%) 2px 2px 3px;
+            box-shadow: hsl(0, 0%, 72%) 2px 2px 3px;
 }
 
 
@@ -81,8 +102,12 @@ h1, h2 {
 }
 
 .card-image-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 100%;
     height: 150px;
 }
@@ -90,16 +115,6 @@ h1, h2 {
 .card-image {
     height: 100%;
 }
-
-/* #pic-gluey-jots {
-    width: 100%;
-    height: 150px;
-    background: url('./gluey-jots.png') white;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: solid 3px white;
-*/
 
 .card-caption {
     margin-top: 5px;
