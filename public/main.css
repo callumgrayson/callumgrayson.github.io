@@ -7,21 +7,18 @@ body {
     padding: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    background-position: top;
+            background: url('./face01.png');
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
-.face-bg {
-    display: block;
-    position: absolute;
-    float: center;
-}
-
 h1, h2 {
   display: block;
   text-align: center;
+  /* text-shadow: 1px 1px 2px black; */
+  /* background: linear-gradient(to right, transparent, white 33%, white 66%, transparent); */
 }
 
 #a-red-rocket {
@@ -64,7 +61,6 @@ h1, h2 {
 }
 
 #container {
-    height: auto;
     background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(20vh, rgba(255, 255, 255, 0.82)));
     background: linear-gradient(transparent, rgba(255, 255, 255, 0.82) 20vh);
     padding-top: 30vh;
@@ -87,11 +83,12 @@ h1, h2 {
 
 .card {
     width: 300px;
-    height: 300px;
-    background: lightgrey;
+    height: auto;
+    min-height: 300px;
+    background: hsl(0, 0%, 83%);
     margin: 10px;
     padding: 10px;
-    border: solid 1px hsl(0, 0%, 90%);
+    border: solid 1px hsl(0, 0%, 83%);
     -webkit-box-shadow: hsl(0, 0%, 72%) 2px 2px 3px;
             box-shadow: hsl(0, 0%, 72%) 2px 2px 3px;
 }
@@ -116,6 +113,7 @@ h1, h2 {
 
 .card-image {
     height: 100%;
+    margin: 2px;
 }
 
 .card-caption {
