@@ -2,19 +2,21 @@ html {
     font-family: 'Lekton', Helvetica, Arial, sans-serif;
 }
 
-* {
+body {
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-}
-
-body {
-    background-image: url('face01.png');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.face-bg {
+    display: block;
+    position: absolute;
+    float: center;
 }
 
 h1, h2 {
