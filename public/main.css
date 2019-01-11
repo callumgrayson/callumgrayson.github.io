@@ -8,15 +8,16 @@ body {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
             background: url('./face01.png');
-    background-position: center center;
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto 100%;
     background-attachment: fixed;
 }
 
 h1, h2 {
   display: block;
   text-align: center;
+  background: radial-gradient(white, white 30%, transparent);
 }
 
 #a-red-rocket {
