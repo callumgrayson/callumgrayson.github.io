@@ -1,5 +1,8 @@
 html {
     font-family: 'Lekton', Helvetica, Arial, sans-serif;
+    background: url('./face01.png') center center no-repeat fixed;
+    background-size: cover;
+    height: 100%;
 }
 
 body {
@@ -7,14 +10,6 @@ body {
     padding: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-            background: url('./face01.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-            background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
 }
 
 h1, h2 {
