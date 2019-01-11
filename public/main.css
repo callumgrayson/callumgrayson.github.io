@@ -8,7 +8,7 @@ body {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     background: url('./face01.png') top center no-repeat fixed;
-    background-size: auto 100vh;
+    background-size: auto 95vh;
 }
 
 h1, h2 {
@@ -53,7 +53,7 @@ h1, h2 {
 }
 
 #face-spacer {
-    height: 100vh;
+    height: 60vh;
 }
 
 #container {
