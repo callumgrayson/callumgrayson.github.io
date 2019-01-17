@@ -6,8 +6,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url('./face-text.png') top center no-repeat fixed;
-    background-size: auto 100vh;
+    background: url('../src/img/face-text.png') top center no-repeat fixed;
+    background-size: auto 99vh;
 }
 
 h1, h2 {
@@ -54,7 +54,7 @@ h1, h2 {
     align-items: flex-start;
     justify-content: center;
     opacity: 1;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .card {
@@ -82,14 +82,26 @@ h1, h2 {
     height: 200px;
     overflow: hidden;
     margin: 0;
-    padding: 0;
-}
-
-.card-image {
-    width: 90%;
-    margin: 2px;
+    padding: 0;    
 }
 
 .card-caption {
     margin-top: 15px;
+}
+
+.make-24 {
+    background: url('../src/img/make-24.png') top center no-repeat;
+    background-size: 90% auto;
+}
+.sticky {
+    background: url('../src/img/gluey-jots.png') top center no-repeat;
+    background-size: 90% auto;
+}
+.svg-clicker {
+    background: url('../src/img/svg-cicker.png') top center no-repeat;
+    background-size: 90% auto;
+}
+.text-speech {
+    background: url('../src/img/text-speech.png') top center no-repeat;
+    background-size: 90% auto;
 }

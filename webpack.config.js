@@ -7,12 +7,6 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(svg|gif|png|ico|eot|woff|ttf)$/,
-        use: [
-          'file-loader'
-        ]
-      },
-      {
         test: /\.css$/,
         use: [
           'style-loader',
@@ -38,7 +32,13 @@ module.exports = {
             presets: ['@babel/preset-env']
           }
         }
-      }
+      },
+      {
+        test: /\.(svg|gif|png|ico|eot|woff|ttf)$/,
+        use: [
+          'file-loader'
+        ]
+      },
     ]
   },
   plugins: [
