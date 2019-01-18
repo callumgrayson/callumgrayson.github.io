@@ -85,23 +85,11 @@ h1, h2 {
     padding: 0;    
 }
 
-.card-caption {
-    margin-top: 15px;
+.card-image {
+    height: 100%;
+    margin: 2px;
 }
 
-.make-24 {
-    background: url('../src/img/make-24.png') top center no-repeat;
-    background-size: 90% auto;
-}
-.sticky {
-    background: url('../src/img/gluey-jots.png') top center no-repeat;
-    background-size: 90% auto;
-}
-.svg-clicker {
-    background: url('../src/img/svg-cicker.png') top center no-repeat;
-    background-size: 90% auto;
-}
-.text-speech {
-    background: url('../src/img/text-speech.png') top center no-repeat;
-    background-size: 90% auto;
+.card-caption {
+    margin-top: 15px;
 }
