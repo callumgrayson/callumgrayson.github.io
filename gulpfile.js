@@ -39,7 +39,7 @@ function images() {
 
 // HTML task
 function html() {
-  return src(['src/index.html', 'src/favicon.ico'])
+  return src(['src/index.html', 'src/favicon.ico', 'src/manifest.json'])
   .pipe(newer('docs/'))
   .pipe(dest('docs/'));
 }
