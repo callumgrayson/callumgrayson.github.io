@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url('../src/img/face-text.png') top center no-repeat fixed;
+    background: url('./img/face-text.png') top center no-repeat fixed;
     background-size: auto 99vh;
 }
 
