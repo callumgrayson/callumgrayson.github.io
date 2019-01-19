@@ -69,6 +69,20 @@ h1, h2 {
     box-shadow: hsl(0, 0%, 72%) 2px 2px 3px;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.card-title {
+    transition-duration: 200ms;
+    text-align: start;
+}
+
+.card-title:hover {
+    color: red;
+}
+
 .card-image-link {
     margin: 0;
     padding: 0;
