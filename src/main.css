@@ -37,6 +37,11 @@ h1, h2 {
 #red-rocket {
     fill: red;
     width: 90%;
+    transition-duration: 200ms;
+}
+
+#red-rocket:hover {
+    transform: rotate(-15deg);
 }
 
 #face-spacer {
@@ -102,6 +107,11 @@ a {
 .card-image {
     height: 100%;
     margin: 2px;
+    transition-duration: 200ms;
+}
+
+.card-image:hover {
+    transform: scale(1.02);
 }
 
 .card-caption {
