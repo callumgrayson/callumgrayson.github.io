@@ -6,8 +6,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url('./img/face-text.png') top center no-repeat fixed;
-    background-size: auto 99vh;
+    background: url('./img/face-text.png') top center repeat-x fixed;
+    background-size: auto 96vh;
 }
 
 h1, h2 {
@@ -27,6 +27,10 @@ h1, h2 {
     justify-content: center;
 }
 
+#a-red-rocket:focus {
+    outline: none;
+}
+
 .svg-container {
     display: flex;
     align-items: center;
@@ -38,19 +42,26 @@ h1, h2 {
     fill: red;
     width: 90%;
     transition-duration: 200ms;
+    user-select: none;
 }
 
 #red-rocket:hover {
     transform: rotate(-15deg);
 }
 
+#red-rocket:active {
+    transform: scale(1.05);
+
+}
+
 #face-spacer {
-    height: 70vh;
+    height: 88vh;
+
 }
 
 #container {
-    background: linear-gradient(transparent, rgba(255, 255, 255, 0.82) 20vh);
-    padding-top: 30vh;
+    background: linear-gradient(transparent, rgba(255, 255, 255, 0.9) 5vh);
+    padding-top: 10vh;
 }
 
 #card-space {
