@@ -1,67 +1,54 @@
 html {
     font-family: 'Lekton', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0 0;
+    padding: 0 0;
     box-sizing: border-box;
     background: url('./img/face-text.png') top center repeat-x fixed;
-    background-size: auto 96vh;
+    background-size: auto 100vh;
 }
 
 h1, h2 {
-  display: block;
   text-align: center;
-  background: radial-gradient(white, white 30%, transparent);
+  margin-top: 0;
+  /* background: radial-gradient(white, white 30%, transparent); */
 }
 
-#a-red-rocket {
-    width: 3em;
-    height: 3em;
-    display: flex;
+#gh-link {
     position: fixed;
-    bottom: 5vmin;
-    right: 5vmin;
+    top: 5px;
+    right: 5px;
     align-items: center;
     justify-content: center;
 }
 
-#a-red-rocket:focus {
+#gh-link:focus {
     outline: none;
 }
 
-.svg-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-#red-rocket {
-    fill: red;
-    width: 90%;
-    transition-duration: 200ms;
-    user-select: none;
-}
-
-#red-rocket:hover {
-    transform: rotate(-15deg);
-}
-
-#red-rocket:active {
-    transform: scale(1.05);
-
-}
-
-#face-spacer {
-    height: 88vh;
-
-}
-
 #container {
-    background: linear-gradient(transparent, rgba(255, 255, 255, 0.9) 5vh);
-    padding-top: 10vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.94) 95%, transparent);
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 10vh;
+}
+
+#head-area {
+    margin-top: 0;
+    padding-top: 0;
+    background: rgba(253, 252, 252, 0);    
+}
+
+.intro {
+    display: block;
+    max-width: 700px;
+    /* background: white; */
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 #card-space {
@@ -128,3 +115,16 @@ a {
 .card-caption {
     margin-top: 15px;
 }
+
+.face-spacer {
+    height: 100vh;
+    /* background: green; */
+    opacity: 0.2;
+}
+
+/* .bottom-area {
+    padding-top: 5vh;
+    background: linear-gradient(pink 85%, transparent);;
+    opacity: 0.9;
+    height: 300px;
+} */
