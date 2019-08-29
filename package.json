@@ -2,7 +2,7 @@
 	"name": "cg-github",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "http://callumgrayson.github.io/",
+	"homepage": "https://callumgrayson.github.io",
 	"dependencies": {
 		"node-sass": "^4.12.0",
 		"react": "^16.9.0",
