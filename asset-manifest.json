@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7729f31c.chunk.css",
+    "main.js": "/static/js/main.cb0d3c84.chunk.js",
+    "main.js.map": "/static/js/main.cb0d3c84.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.d00220fc.chunk.js": "/static/js/2.d00220fc.chunk.js",
+    "static/js/2.d00220fc.chunk.js.map": "/static/js/2.d00220fc.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c6de366683bd94c54e7d9d1e40a2b834.js": "/precache-manifest.c6de366683bd94c54e7d9d1e40a2b834.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7729f31c.chunk.css.map": "/static/css/main.7729f31c.chunk.css.map",
+    "static/media/clicky.png": "/static/media/clicky.42d98203.png",
+    "static/media/compare-yourself.png": "/static/media/compare-yourself.b741456a.png",
+    "static/media/App.module.scss": "/static/media/face-text.5470cb80.png",
+    "static/media/gluey-jots.png": "/static/media/gluey-jots.792c90fd.png",
+    "static/media/jammming.png": "/static/media/jammming.ce09ba68.png",
+    "static/media/make-24.png": "/static/media/make-24.555a928a.png",
+    "static/media/not-quite-news.png": "/static/media/not-quite-news.1f569e0c.png",
+    "static/media/ravenous.png": "/static/media/ravenous.69806487.png",
+    "static/media/sampler.jpg": "/static/media/sampler.8a3fbe30.jpg",
+    "static/media/svg-clicker.png": "/static/media/svg-clicker.87ee3b41.png",
+    "static/media/swapi.png": "/static/media/swapi.aa6c2b9c.png",
+    "static/media/text-speech.png": "/static/media/text-speech.dc6633ad.png"
+  }
+}
