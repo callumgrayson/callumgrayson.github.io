@@ -58,7 +58,7 @@ function App() {
 											</div>
 										</a>
 										<p className={styles.card_caption}>
-											{card.displayText}.
+											{card.displayText}
 										</p>
 									</div>
 								))}
