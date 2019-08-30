@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7ff860f9113b0b73cc7e0cf2304b6248",
+    "revision": "9f3bc3d2fc573b1bbc10af8c80cec141",
     "url": "/index.html"
   },
   {
-    "revision": "f959e7851a03bb642a37",
-    "url": "/static/css/main.7729f31c.chunk.css"
+    "revision": "a6bc42464826c111c39e",
+    "url": "/static/css/main.b11cc948.chunk.css"
   },
   {
-    "revision": "7b1f4b21376cafcca9f7",
-    "url": "/static/js/2.d00220fc.chunk.js"
+    "revision": "d24348529d2a7973f991",
+    "url": "/static/js/2.ba37f66c.chunk.js"
   },
   {
-    "revision": "f959e7851a03bb642a37",
-    "url": "/static/js/main.cb0d3c84.chunk.js"
+    "revision": "a6bc42464826c111c39e",
+    "url": "/static/js/main.a100a69a.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "698064875cf1ccf775587576f096bf07",
     "url": "/static/media/ravenous.69806487.png"
+  },
+  {
+    "revision": "fde633901c00e8cf1e1832e34aa361e4",
+    "url": "/static/media/react-tetris.fde63390.png"
   },
   {
     "revision": "8a3fbe30cfd48fdd7c608fff82924eda",
