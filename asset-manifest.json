@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b11cc948.chunk.css",
+    "main.css": "/static/css/main.6c0ccdc7.chunk.css",
     "main.js": "/static/js/main.a100a69a.chunk.js",
     "main.js.map": "/static/js/main.a100a69a.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -8,9 +8,9 @@
     "static/js/2.ba37f66c.chunk.js": "/static/js/2.ba37f66c.chunk.js",
     "static/js/2.ba37f66c.chunk.js.map": "/static/js/2.ba37f66c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.39c28b7b7e272a3ab6c2c88b117459f7.js": "/precache-manifest.39c28b7b7e272a3ab6c2c88b117459f7.js",
+    "precache-manifest.4146d30f8885c0b2a757652d3cf76d27.js": "/precache-manifest.4146d30f8885c0b2a757652d3cf76d27.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.b11cc948.chunk.css.map": "/static/css/main.b11cc948.chunk.css.map",
+    "static/css/main.6c0ccdc7.chunk.css.map": "/static/css/main.6c0ccdc7.chunk.css.map",
     "static/media/clicky.png": "/static/media/clicky.42d98203.png",
     "static/media/compare-yourself.png": "/static/media/compare-yourself.b741456a.png",
     "static/media/App.module.scss": "/static/media/face-text.5470cb80.png",
