@@ -11,6 +11,11 @@ body {
 	background-size: auto 100vh;
 }
 
+* {
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
 h1,
 h2 {
 	text-align: center;

@@ -10,6 +10,7 @@ import svgClicker from './img/svg-clicker.png';
 import swapi from './img/swapi.png';
 import textSpeech from './img/text-speech.png';
 import reactTetris from './img/react-tetris.png';
+import svgStrokes from './img/svg_strokes.png';
 
 export default [
 	{
@@ -21,6 +22,12 @@ export default [
 				displayText:
 					'Interface app for displaying data from the Star Wars API.',
 				imgSrc: swapi
+			},
+			{
+				url: 'svg-strokes/',
+				title: 'SVG Strokes',
+				displayText: 'Experiments in animating text using React.',
+				imgSrc: svgStrokes
 			},
 			{
 				url: 'react-tetris/',
