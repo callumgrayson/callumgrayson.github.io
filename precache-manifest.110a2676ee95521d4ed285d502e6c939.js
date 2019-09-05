@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c667192997e67495b563b3de8e4213bf",
+    "revision": "ecf9f385632e961c76cbcc8dfdc56dcc",
     "url": "/index.html"
   },
   {
-    "revision": "11f2d25810e3fcd4ea81",
+    "revision": "f2bba85bdf3657502f68",
     "url": "/static/css/main.5d370e3c.chunk.css"
   },
   {
-    "revision": "0e9a37b68ee2815f05fb",
-    "url": "/static/js/2.c946b710.chunk.js"
+    "revision": "e3ab2dca37ff12919620",
+    "url": "/static/js/2.9a04a266.chunk.js"
   },
   {
-    "revision": "11f2d25810e3fcd4ea81",
-    "url": "/static/js/main.bb216112.chunk.js"
+    "revision": "f2bba85bdf3657502f68",
+    "url": "/static/js/main.067194d9.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
+  },
+  {
+    "revision": "006600bb5e2a1a047e8a2fcebad39532",
+    "url": "/static/media/castello.006600bb.png"
   },
   {
     "revision": "42d98203dd4115f8196ccb757d540cbd",
@@ -74,5 +78,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dc6633adc7ff4814f4d033315baf0b2c",
     "url": "/static/media/text-speech.dc6633ad.png"
+  },
+  {
+    "revision": "2e206254ead4c7e5e92f4a487e8238fe",
+    "url": "/static/media/travello.2e206254.png"
   }
 ]);
