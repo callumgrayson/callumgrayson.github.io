@@ -11,6 +11,8 @@ import swapi from './img/swapi.png';
 import textSpeech from './img/text-speech.png';
 import reactTetris from './img/react-tetris.png';
 import svgStrokes from './img/svg_strokes.png';
+import castello from './img/castello.png';
+import travello from './img/travello.png';
 
 export default [
 	{
@@ -35,6 +37,20 @@ export default [
 				displayText:
 					'Tetris created with React Hooks and Styled Components. Responsive and touch-friendly.',
 				imgSrc: reactTetris
+			},
+			{
+				url: 'castello/',
+				title: 'Castello',
+				displayText:
+					'Responsive styling project for a real estate page using React, SCSS and CSS modules.',
+				imgSrc: castello
+			},
+			{
+				url: 'travello/',
+				title: 'Travello',
+				displayText:
+					'Responsive styling project for a travel page using React, SCSS and CSS modules.',
+				imgSrc: travello
 			},
 			{
 				title: 'Sampler',
