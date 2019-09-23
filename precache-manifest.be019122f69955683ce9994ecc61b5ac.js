@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ecf9f385632e961c76cbcc8dfdc56dcc",
+    "revision": "1ea0aea632438c06bdecbaef1d7ce755",
     "url": "/index.html"
   },
   {
-    "revision": "f2bba85bdf3657502f68",
-    "url": "/static/css/main.5d370e3c.chunk.css"
+    "revision": "39f20d8f1d95b7f6041a",
+    "url": "/static/css/main.6c0ccdc7.chunk.css"
   },
   {
-    "revision": "e3ab2dca37ff12919620",
-    "url": "/static/js/2.9a04a266.chunk.js"
+    "revision": "7b38f4ad73c0667aa16d",
+    "url": "/static/js/2.f4830282.chunk.js"
   },
   {
-    "revision": "f2bba85bdf3657502f68",
-    "url": "/static/js/main.067194d9.chunk.js"
+    "revision": "39f20d8f1d95b7f6041a",
+    "url": "/static/js/main.2ba5333b.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b741456a8f1b23e56e77d873ca94086e",
     "url": "/static/media/compare-yourself.b741456a.png"
+  },
+  {
+    "revision": "39103090ed85f5e8e439fcef0dbd22e7",
+    "url": "/static/media/d3-hooks.39103090.png"
   },
   {
     "revision": "5470cb8099eeb0e1691a1e02345e6522",
@@ -56,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ravenous.69806487.png"
   },
   {
-    "revision": "fde633901c00e8cf1e1832e34aa361e4",
-    "url": "/static/media/react-tetris.fde63390.png"
+    "revision": "568a773faa7e293679f6e67951665fe8",
+    "url": "/static/media/react-tetris.568a773f.png"
   },
   {
     "revision": "8a3fbe30cfd48fdd7c608fff82924eda",
