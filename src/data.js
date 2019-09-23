@@ -13,11 +13,18 @@ import reactTetris from './img/react-tetris.png';
 import svgStrokes from './img/svg_strokes.png';
 import castello from './img/castello.png';
 import travello from './img/travello.png';
+import d3Hooks from './img/d3-hooks.png';
 
 export default [
 	{
 		year: 2019,
 		cards: [
+			{
+				url: 'd3-hooks/',
+				title: 'D3 with React Hooks',
+				displayText: 'Data visualization using D3 with React Hooks.',
+				imgSrc: d3Hooks
+			},
 			{
 				url: 'swapi/',
 				title: 'Star Wars API',
