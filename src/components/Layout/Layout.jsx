@@ -27,6 +27,9 @@ function Layout() {
           </nav>
         </div>
         <div className="outlet-box">
+          <div className="titlebarbox">
+            titlebar height is the padding on this div...
+          </div>
           <Outlet />
         </div>
       </div>
