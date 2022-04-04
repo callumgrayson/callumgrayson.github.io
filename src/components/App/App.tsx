@@ -1,18 +1,8 @@
-import React from "react";
+// import * as React from "react";
+import { Routes, Route, Outlet, Link } from "react-router-dom";
+import AppRoutes from "../Routing/AppRoutes";
 import "./App.css";
-import AppHeader from "../Headings/AppHeader";
-import AppHeading from "../Headings/AppHeading";
 
-function App() {
-  return (
-    <main className="App">
-      <AppHeader />
-      <AppHeading>
-        Callum Grayson portfolio page <b>Updated</b>
-      </AppHeading>
-      <div>List of all the bits</div>
-    </main>
-  );
+export default function App() {
+  return <AppRoutes />;
 }
-
-export default App;
