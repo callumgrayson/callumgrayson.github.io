@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/243.fca40b77.chunk.css","mappings":"AAAA,UACE,YACF,CAEA,YACE,aACF,CACA,cACE,eACF","sources":["components/TaxCalculator/styles.css"],"sourcesContent":[".flex-row {\r\n  display: flex;\r\n}\r\n\r\n.spaced-box {\r\n  margin: 0 1rem;\r\n}\r\n.spaced-box p {\r\n  margin: 0.25rem 0;\r\n}\r\n"],"names":[],"sourceRoot":""}
