@@ -2,11 +2,13 @@ header {
   border: 1px solid red;
   /* height: 50px; */
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 footer {
   border: 1px solid red;
-  /* height: 50px; */
   padding: 20px;
+  margin-bottom: 56px;
 }
 
 .full-page {
@@ -21,14 +23,44 @@ footer {
   display: flex;
   flex: 1;
   height: 100%;
+  position: relative;
+}
+
+.show-menu-button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.show-menu-button svg {
+  height: 1rem;
+  width: 1rem;
 }
 
 .nav-box {
-  padding: 20px 40px 20px 20px;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+  visibility: hidden;
+  border: 1px solid red;
+}
+
+.nav-box.open {
+  visibility: visible;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.92);
+  /* border-radius: 16px; */
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+  /* backdrop-filter: blur(53.1px); */
+  /* -webkit-backdrop-filter: blur(15.1px); */
+  /* border: 1px solid rgba(255, 255, 255, 0.24); */
 }
 
 .nav-box nav {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: max-content;
 }
 
@@ -44,8 +76,28 @@ footer {
   border: 1px solid red;
   width: 100%;
 }
+.outlet-box h2 {
+  margin: 0;
+}
 
-.titlebarbox {
-  padding: env(titlebar-area-height, 0);
-  border: 1px solid blue;
+.home {
+  background-color: bisque;
+  min-height: 100%;
+}
+
+/* Desktop or landscape */
+@media (min-aspect-ratio: 1/1) {
+  .show-menu-button {
+    visibility: hidden;
+  }
+  .nav-box {
+    left: 0;
+    right: auto;
+    position: relative;
+    visibility: visible;
+  }
+
+  footer {
+    margin-bottom: 0px;
+  }
 }

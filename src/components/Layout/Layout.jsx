@@ -1,14 +1,19 @@
 import { Outlet, Link } from "react-router-dom";
+import MenuButton from "../Buttons/MenuButton";
+import useMenuState from "./useMenuState";
 import "./Layout.css";
 
 function Layout() {
+  const [showMenu, handler] = useMenuState();
+
   return (
     <div className="full-page">
       <header className="header">
         <span>CALLUMGRAYSON.GITHUB.IO</span>
+        <MenuButton showMenu={showMenu} handler={handler} />
       </header>
       <div className="flex-row-box">
-        <div className="nav-box">
+        <div className={`nav-box ${showMenu ? "open" : ""}`}>
           <nav>
             <ul>
               <li>
@@ -27,13 +32,10 @@ function Layout() {
           </nav>
         </div>
         <div className="outlet-box">
-          <div className="titlebarbox">
-            titlebar height is the padding on this div...
-          </div>
           <Outlet />
         </div>
       </div>
-      <footer className="footer">Footer stuff</footer>
+      {/* <footer className="footer">Footer stuff</footer> */}
     </div>
   );
 }
