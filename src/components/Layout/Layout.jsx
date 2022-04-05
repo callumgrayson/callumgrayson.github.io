@@ -17,6 +17,10 @@ function Layout() {
         <div className="outlet-box">
           <Outlet />
         </div>
+        <div
+          className={`click-box ${showMenu ? "open" : ""}`}
+          onClick={handler}
+        />
         <div className={`nav-box ${showMenu ? "open" : ""}`}>
           <nav>
             <ul>
@@ -24,7 +28,7 @@ function Layout() {
                 <Link to="/">Home</Link>
               </li>
               {routesMap.map((route) => (
-                <li>
+                <li key={route.path}>
                   <Link to={route.path}>{route.title}</Link>
                 </li>
               ))}
