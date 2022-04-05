@@ -1,19 +1,16 @@
-import Dashboard from "../Dashboard/Dashboard";
-import NoMatch from "../NoMatch/NoMatch";
-import About from "../About/About";
+import FlexFills from "../FlexFills";
+import TaxCalculator from "../TaxCalculator/TaxCalculator";
 
 const routesMap = [
   {
-    path: "about",
-    element: About,
+    path: "flex-fills",
+    element: FlexFills,
+    title: "Flex Fills",
   },
   {
-    path: "dashboard",
-    element: Dashboard,
-  },
-  {
-    path: "*",
-    element: NoMatch,
+    path: "tax-calculator",
+    element: TaxCalculator,
+    title: "Tax Calculator",
   },
 ];
 

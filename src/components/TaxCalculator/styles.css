@@ -1,0 +1,10 @@
+.flex-row {
+  display: flex;
+}
+
+.spaced-box {
+  margin: 0 1rem;
+}
+.spaced-box p {
+  margin: 0.25rem 0;
+}

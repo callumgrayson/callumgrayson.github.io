@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Layout from "../Layout/Layout";
 import Home from "../Home/Home";
+import NoMatch from "../NoMatch/NoMatch";
 import routesMap from "./routesMap";
 
 export default function AppRoutes() {
@@ -15,6 +16,7 @@ export default function AppRoutes() {
             element={<route.element />}
           />
         ))}
+        <Route path="*" element={<NoMatch />} />
       </Route>
     </Routes>
   );
