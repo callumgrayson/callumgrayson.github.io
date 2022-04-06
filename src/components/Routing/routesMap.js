@@ -6,8 +6,14 @@ const FlexFills = React.lazy(() => import("../FlexFills"));
 const TaxCalculator = React.lazy(() =>
   import("../TaxCalculator/TaxCalculator")
 );
+const Anagrams = React.lazy(() => import("../Anagrams/Anagrams"));
 
 const routesMap = [
+  {
+    path: "anagrams",
+    element: Anagrams,
+    title: "Anagrams",
+  },
   {
     path: "flex-fills",
     element: FlexFills,

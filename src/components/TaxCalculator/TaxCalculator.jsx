@@ -134,18 +134,18 @@ function TaxCalculator() {
 
       <h4>Tax Brackets</h4>
 
-      <table>
-        <thead>
+      <table className="tax-calculator-table">
+        <thead className="tax-calculator-table-head">
           <tr>
             <th>Up to</th>
-            <th>Rate</th>
+            <th>Rate %</th>
           </tr>
         </thead>
         <tbody>
           {countriesMap[country].brackets.map((bracket, idx) => (
             <tr key={idx}>
-              <td>{bracket[0]}</td>
-              <td>{bracket[1]}</td>
+              <td>{bracket[0].toLocaleString()}</td>
+              <td>{bracket[1].toFixed(1)}</td>
             </tr>
           ))}
         </tbody>

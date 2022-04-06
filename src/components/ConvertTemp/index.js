@@ -40,10 +40,10 @@ function ConvertTemp() {
   return (
     <div>
       <h3>Convert Temperature</h3>
-      <div style={{ display: "flex" }}>
+      {/* <div style={{ display: "flex" }}>
         <p>Precision</p>
         <p style={{ marginLeft: "10px" }}>{getPrecision(temp.value)}</p>
-      </div>
+      </div> */}
       <div className="row">
         <input
           type="number"

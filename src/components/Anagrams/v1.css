@@ -1,0 +1,20 @@
+.v1 {
+	min-height: 101vh;
+}
+
+.loaderBox {
+	height: 1.2rem;
+	font-weight: bold;
+	color: red;
+}
+.formBox {
+	min-height: 2rem;
+}
+
+.isFetching {
+	background-color: #ddd;
+	min-height: 23px;
+	width: 100%;
+	max-width: 250px;
+	margin: 0 auto;
+}
