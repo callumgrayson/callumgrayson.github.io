@@ -1,0 +1,27 @@
+.logos-box {
+  /* border: 1px solid red; */
+}
+
+.logo-row {
+  display: flex;
+  padding: 6px;
+  max-width: 1000px;
+}
+
+.logo-box {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid black;
+  margin-left: 1rem;
+}
+.logo-box.black {
+  background-color: black;
+}
+.logo-box.black img {
+  filter: invert(1);
+}
+.logo-box.gray {
+  background-color: gray;
+}

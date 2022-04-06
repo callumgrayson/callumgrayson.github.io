@@ -6,6 +6,7 @@ const TaxCalculator = React.lazy(() =>
 );
 const Anagrams = React.lazy(() => import("../Anagrams/Anagrams"));
 const Make24 = React.lazy(() => import("../Make24/Make24"));
+const Logos = React.lazy(() => import("../Logos/Logos"));
 
 const routesMap = [
   {
@@ -32,6 +33,11 @@ const routesMap = [
     path: "convert-temperature",
     element: ConvertTemp,
     title: "Convert Temperature",
+  },
+  {
+    path: "logos",
+    element: Logos,
+    title: "Logos",
   },
 ];
 
