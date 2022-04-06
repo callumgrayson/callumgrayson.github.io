@@ -120,11 +120,6 @@ footer {
   margin: 0;
 }
 
-.home {
-  /* background-color: bisque; */
-  /* min-height: 100%; */
-}
-
 /* Desktop or landscape */
 @media (min-aspect-ratio: 1/1) {
   .show-menu-button {
