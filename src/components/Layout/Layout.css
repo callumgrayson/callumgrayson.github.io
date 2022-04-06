@@ -1,8 +1,13 @@
+:root {
+  --surround-color: rgb(244, 244, 244);
+}
+
 header {
   /* border: 1px solid red; */
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  background-color: var(--surround-color);
 }
 footer {
   /* border: 1px solid red; */
@@ -69,16 +74,20 @@ footer {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: white;
+  /* background-color: white; */
+  background-color: var(--surround-color);
+
   visibility: hidden;
   /* border: 1px solid red; */
 }
 
 .nav-box.open {
   visibility: visible;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(220, 220, 220);
 
   /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.92);
+  /* background: rgba(243, 243, 243, 0.97); */
   /* border-radius: 16px; */
   /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
   /* backdrop-filter: blur(53.1px); */
@@ -87,7 +96,7 @@ footer {
 }
 
 .nav-box nav {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: max-content;
 }
 

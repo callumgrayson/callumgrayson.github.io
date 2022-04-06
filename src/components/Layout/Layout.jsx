@@ -1,7 +1,7 @@
-import { Outlet, Link, Route } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import MenuButton from "../Buttons/MenuButton";
 import useMenuState from "./useMenuState";
-import routesMap from "../Routing/routesMap";
+import Nav from "./Nav";
 import "./Layout.css";
 
 function Layout() {
@@ -17,27 +17,7 @@ function Layout() {
         <div className="outlet-box">
           <Outlet />
         </div>
-        <div
-          className={`click-box ${showMenu ? "open" : ""}`}
-          onClick={handler}
-        />
-        <div className={`nav-box ${showMenu ? "open" : ""}`}>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              {routesMap.map((route) => (
-                <li key={route.path}>
-                  <Link to={route.path}>{route.title}</Link>
-                </li>
-              ))}
-              <li>
-                <Link to="/nothing-here">Nothing Here</Link>
-              </li>
-            </ul>
-          </nav>
-        </div>
+        <Nav showMenu={showMenu} handler={handler} />
       </div>
       {/* <footer className="footer">Footer stuff</footer> */}
     </div>

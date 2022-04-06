@@ -36,20 +36,9 @@ const V1 = (props) => {
     const getData = async () => {
       let data = {};
 
-      // console.log('tree', tree);
       if (wordsArray && wordsArray.hasOwnProperty(listSize)) {
-        // console.log(
-        // 	'wordsArray.hasOwnProperty(listSize)',
-        // 	wordsArray.hasOwnProperty(listSize)
-        // );
         return;
       }
-
-      // console.log(
-      // 	'localStorage.hasOwnProperty(listSize), listSize',
-      // 	localStorage.hasOwnProperty(listSize),
-      // 	listSize
-      // );
 
       if (!localStorage.hasOwnProperty(listSize)) {
         const url = getUrl();
@@ -63,12 +52,12 @@ const V1 = (props) => {
       }
 
       // console.log('data[listSize]', data[listSize]);
-      let start = Date.now();
+      // let start = Date.now();
       const [wTree, wArr] = await handleData(data);
       // console.log('wTree, wArr', wTree, wArr);
-      let end = Date.now();
-      let dur = end - start;
-      console.log("Array preparation duration", dur);
+      // let end = Date.now();
+      // let dur = end - start;
+      // console.log("Array preparation duration", dur);
 
       // console.log('tree', tree);
       const newTree = { ...tree, [listSize]: wTree };

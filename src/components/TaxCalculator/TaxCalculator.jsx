@@ -108,17 +108,16 @@ function TaxCalculator() {
   const inTheHand = income - taxToPay.tax;
 
   return (
-    <div>
+    <div className="tax-calculator">
       <h3>Tax Calculator</h3>
       {Object.entries(countriesMap).map((countriesItem) => (
         <button
           key={countriesItem[0]}
           name={countriesItem[0]}
           onClick={handleCountryChange}
-          style={{
-            backgroundColor:
-              countriesItem[0] === country ? "lightgreen" : "initial",
-          }}
+          className={`countries-button ${
+            countriesItem[0] === country ? "selected" : ""
+          }`}
         >
           {countriesItem[1].countryTitle}
         </button>
@@ -203,8 +202,6 @@ function TaxCalculator() {
           </p>
         </div>
       </div>
-
-      {/* <pre>{JSON.stringify(latestEuroRates, null, 2)}</pre> */}
     </div>
   );
 }

@@ -1,3 +1,7 @@
+.tax-calculator {
+  padding: 6px;
+}
+
 .flex-row {
   display: flex;
 }
@@ -18,4 +22,12 @@
   /* border-bottom: 1px solid blue; */
   padding: 0 1rem;
   text-align: right;
+}
+
+.countries-button {
+  padding: 6px;
+}
+.countries-button.selected {
+  background-color: rgb(255, 255, 255);
+  text-decoration: underline;
 }

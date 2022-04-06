@@ -1,18 +1,22 @@
 import * as React from "react";
-// import FlexFills from "../FlexFills";
-// import TaxCalculator from "../TaxCalculator/TaxCalculator";
 const ConvertTemp = React.lazy(() => import("../ConvertTemp"));
 const FlexFills = React.lazy(() => import("../FlexFills"));
 const TaxCalculator = React.lazy(() =>
   import("../TaxCalculator/TaxCalculator")
 );
 const Anagrams = React.lazy(() => import("../Anagrams/Anagrams"));
+const Make24 = React.lazy(() => import("../Make24/Make24"));
 
 const routesMap = [
   {
     path: "anagrams",
     element: Anagrams,
     title: "Anagrams",
+  },
+  {
+    path: "make24",
+    element: Make24,
+    title: "Make 24",
   },
   {
     path: "flex-fills",

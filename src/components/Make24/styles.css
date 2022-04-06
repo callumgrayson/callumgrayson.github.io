@@ -1,0 +1,11 @@
+.make24-container {
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  text-align: center;
+}
+
+.make24-container form {
+  margin-top: 1rem;
+}
