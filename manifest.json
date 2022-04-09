@@ -1,9 +1,9 @@
 {
-  "short_name": "Project Gallery",
-  "name": "Gallery of learning projects by Callum Grayson",
+  "short_name": "GitHub - Callum Grayson",
+  "name": "GitHub - Callum Grayson",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "CG1-64.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
